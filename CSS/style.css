@@ -1,0 +1,1708 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100&family=Yeseva+One&display=swap');
+body {
+    margin:0;
+    font-family: Nunito Sans, Arial;
+    }
+    
+    body * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 1500px;
+        margin: 0 auto;  
+    }
+    
+    button {
+        background: #E3B873; 
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2); 
+        border-radius: 2px;
+        outline: 0;
+        border: 0;
+        padding: 13px 33px;
+        color: white;
+        text-transform: uppercase; 
+    }
+    
+    .logo {
+        color:#E3B873;
+    }
+    
+    .header {
+        background-color: black;
+    }
+    
+    .header-content {
+        display: flex; 
+        justify-content: space-between;
+        height: 83px;
+        align-items: center;
+    }
+    
+    .header-content p {
+        color:#E3B873;
+        text-decoration: underline;
+    }
+
+    .header-navigation {
+        list-style: none;
+        display:flex;
+    }
+    
+    .header-navigation_item {
+        margin-right: 27px;
+    }
+    
+    .header-navigation_item a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .hero {
+        background-image: url("../image/image\ 4.3.svg");
+        background-size: cover;
+        height: 707px;
+        padding-top: 194px;
+        position: relative;
+    }
+    
+    .hero-overlay {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .7);
+    }
+    
+    .hero-container {
+    position: relative;
+    z-index: 1;
+    width: 525.11px;
+    height: 105px;
+    margin-left: 144px;
+    margin-top: 27px;
+    }
+
+    .gold1 {
+      margin-left: 664.45px;
+    }
+    .gold2 {
+      margin-right: 665px;
+    }
+
+    .hero-container p {
+        color: #FFFFFF;
+        font-size: 22px;
+        font-weight: 400; 
+        font-family: 'Nunito Sans', sans-serif;
+        width: 500px; 
+        margin-top: 20px;
+    }
+    
+    .title {
+        margin: 0;
+        font-family: Yeseva One, 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 53px;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+
+    .title b {
+        color:#E3B873;
+        font-weight: normal;  
+    }
+
+    .calculate {
+        width: 215px;
+        height: 51px;
+        font-size: 11px;
+        text-align: center;
+        padding: 0;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+
+    .submit {
+        width: 207px;
+        height: 51px; 
+        box-sizing: border-box;
+        color:#FFFFFF;
+        border: 1px solid #FFFFFF;
+        font-size: 11px;
+        text-align: center;
+        padding: 0;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 15px;
+        margin-left: 15px;
+        background-image: none;
+        background-color: transparent;
+    }
+
+.project {
+  background-color: #000000;
+}
+
+.projectsecond {
+  display: none;
+}
+
+.projectthird {
+  display: none;
+}
+
+.project-container {
+    height: 1074px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.step2whiteback {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.project-container div {
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.project-content {
+    margin-top: 176px;
+    margin-left: 134.45px;
+    width: 442px; 
+}
+
+.project-content h3 {
+    width: 253px;
+    height: 66px;
+    color: #E3B873;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 37.42px;
+    margin-bottom: 34px; 
+}
+
+.project-content .text {
+    font-family: 'Nunito Sans', sans-serif; 
+    width: 442px;
+    height: 86px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26.73px; 
+}
+
+.project-content h4 {
+    display: inline-block; 
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    color: #E3B873;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.95px;
+    text-transform: uppercase;
+    vertical-align: top;  
+}
+
+.city {
+    width: 66px;
+    height: 22px; 
+    margin-right: 124px; 
+}
+
+.appartment {
+    width: 213px;
+    height: 22px;
+}
+
+.repair {
+    width: 156px;
+    height: 22px;
+    margin-right: 34px; 
+    margin-top: 65px; 
+}
+
+.cost {
+    width: 218px; 
+    height: 22px;
+    margin-top: 65px;
+    margin-right: 20px; 
+}
+
+.p {
+    width: 161px;
+    height: 42px; 
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    margin-right: 29px;
+    color: #FFFFFF;
+    text-transform: none;
+    margin-top: 9px;
+}
+
+.project-image {
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 50px;
+}
+
+.project-image h5 {
+    display: inline-block;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 60.5px;
+    margin-bottom: 52.68px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+hr {
+  border: 2px solid #E3B873;
+  border-bottom-width: 0;
+}
+
+.Rostov-on-Don {
+    color: #E3B873;
+    position: relative; 
+    top: 21px;
+}
+
+.project-image img {
+    display:block;
+    height: 482px;
+    width: 679px;
+}
+
+.arrowlr {
+    margin-top: 79.64px; 
+
+}
+
+.sticklr {
+    position: relative;
+    top: -5.97px; 
+}
+
+.dot {
+    position: relative;
+    top: -1.7px;
+    margin-left: 17.54px;
+    margin-right: 0px; 
+}
+
+.control {
+    height: 26px;
+    width: 196px;
+    color: #FFFFFF;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    text-transform: uppercase; 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin: 92px 623.45px 0 623px; 
+}
+
+.camera {
+    position: relative;
+    top: 14px; 
+    left: -3px;
+}
+
+.video {
+    width: 817px;
+    height: 434px; 
+    margin-top: 31.21px;
+    margin-left: 311.45px;
+    position: relative;
+}
+
+.videoblack {
+    width: 817px;
+    height: 434px;
+    margin-left: 311px; 
+    position: relative;
+    top: -440px;
+}
+
+.ellipse {
+    height: 130px;
+    width: 130px;
+    position: relative;
+    left: -485px;
+    top: -600px;
+}
+
+.play {
+    width: 22px;
+    height: 25px;
+    position: relative;
+    left: -562px;
+    top: -655px;
+}
+
+.line {
+    height: 3.54px;
+    width: 55px;
+    margin-top: 280.5px;
+    margin-left: 690px;
+}
+
+.text2 {
+    height: 130px;
+    width: 681px;
+    margin-left: 377px; 
+    margin-top: 24.46px;
+    border-radius: nullpx;    
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 700; 
+    line-height: 37px;
+    text-align: center;
+}
+
+.name-phone {
+    display: inline-block;
+    width: 529px;
+    margin-left: 333px;
+    margin-top: 93.5px;
+}
+
+.name {
+    color: rgba(54, 54, 54, 0.5);
+    display: inline-block;
+    height: 12px;
+    width: 289px;
+    margin-bottom: 0px;
+    border-radius: nullpx; 
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    font-weight: bold; 
+}
+
+.phone {
+    color: rgba(54, 54, 54, 0.5);
+    display: inline-block;
+    height: 11px;
+    width: 55px;
+    margin-bottom: 0px;
+    border-radius: nullpx;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    font-weight: bold; 
+}
+
+.submit5 {
+    height: 60px;
+    width: 220px;
+    border-radius: 2px;
+    margin-left: 46px;
+    background: #E3B873;
+    position: relative; 
+    top: -25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26.6px;
+    text-align: center;
+    font-family: Nunito Sans;
+}
+
+.whatname {
+    display: inline-block;
+    height: 17px;
+    width: 137px;
+    border-radius: nullpx;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    /* text-align: left; */
+    color: #000000;
+    font-weight: bold;
+    margin-right: 151.64px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.yourphone {
+    display: inline-block;
+    height: 17px;
+    width: 157px;
+    border-radius: nullpx;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    margin-top: 0;
+    border-radius: 1px;
+    position: relative;
+    left: 592.19px;
+    top: 5px;
+}
+
+.check{
+    height: 10px;
+    width: 13px;
+    z-index: 2;
+    position: relative;
+    left: 572.19px;
+}
+
+.argee {
+    display: inline-block;
+    font-family: Nunito Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    margin-left: 588.81px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.types {
+    display: block;
+    height: 26px;
+    width: 257px;
+    margin-right: 0;
+    border-radius: nullpx;
+    font-family: Yeseva One;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 620px;
+}
+
+.tools {
+    position: relative;
+    left: 695px;
+}
+
+.toolsline {
+    position: relative;
+    bottom: 10px;
+    left: 770px;
+}
+
+.toolslineright {
+    position: relative;
+    bottom: 10px;
+    left: 620px;
+}
+
+.underline {
+    height: 1.5px;
+    width: 231px;
+    background-color: rgba(36, 36, 36, 0.1); 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.underline2 {
+    height: 1.5px;
+    width: 231px;
+    background-color: rgba(36, 36, 36, 0.1);
+    margin-left: 58.64px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+
+.section-rooms {
+    max-width: 1440px;
+    height: 608px;
+    vertical-align: top;
+    margin: 31px auto;
+    padding: 0 auto;
+}
+
+.section-rooms div{
+    display: inline-block;
+    height: 100%;
+    width: 392px;
+    margin-right: 30px;
+}
+
+.photoroom {
+    height: 421px;
+    width: 100%;
+}
+
+
+.whitetext {
+    height: 286px;
+    width: 330px;
+    position: relative;
+    top: -129px;
+    left: 31px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.decor {
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    height: 21px;
+    width: 228px;
+    margin: 0 0 0 24px;
+    border-radius: nullpx;
+    position: relative;
+    top: -390px;
+    left: 36px;
+    
+}
+
+.list {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #959595;
+    position: relative;
+    top: -390px;
+    left: 36px;  
+}
+
+.button900 {
+    height: 54px;
+    width: 228px;
+    background-color:#E3B873;
+    position: relative;
+    top: -400px;
+    left: 36px;
+    font-family: Yeseva One;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+}
+
+.whitepig {
+    height: 920.5px;
+    max-width: 1440px;
+    margin: 124px auto 0;
+    vertical-align: top;
+}
+
+.imagestep3 {
+    width: 703px;
+    height: 645px;
+    display: inline-block;
+    margin-right: 131px;
+}
+
+.imagebackground {
+   width: 100%;
+   height: 100%; 
+   z-index: 1;
+}
+
+.imagestep3 ul {
+    list-style-type: none;
+    position: relative;
+    top: -645px;
+    left: 120px;
+    z-index: 3;
+}
+
+.imagestep3 ul h6 {
+    display: inline-block;
+    width: 33px;
+    height: 19px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color:#FFFFFF;
+    
+
+}
+
+.imagestep3 ul img {
+    position: relative;
+    top: 42px;
+    left: 60px;
+    z-index: -1;
+}
+
+.imagestep3 ul p {
+    height: 39px;
+    width: 316px;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 19px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 16px;
+}
+
+.blacklist {
+    height: 509px;
+    width: 506px;
+    background-color: #000000;
+    display: inline-block;
+    position: relative;
+    top: -600px;
+    z-index: 1;
+}
+
+.blacklist .p2 {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 297px;
+    height: 47px;
+    color: #FFFFFF;
+    margin: 28px auto;
+}
+
+.name2 {
+    margin-left: 49px;
+    margin-right: 0;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.whatname2 {
+    margin-left: 49px;
+    margin-right: 0;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 408px;
+}
+
+.hr {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom-width: 0;
+    width: 408px;
+    margin-bottom: 0;
+  }
+
+  .phone2 {
+    margin-top: 48px;
+  }
+
+  .adress {
+    margin-top: 48px;
+  }
+
+  .argee2 {
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 0;
+    position: relative;
+    top: -5px;
+  }
+
+  .check2 {
+    position: relative;
+    left: -20px; 
+    top: -5px;
+    margin-top: 0;
+  }
+
+  .square2 {
+    margin-left: 49px; 
+    margin-top: 0; 
+  }
+
+  .buttonstep3 {
+    width: 213px;
+    height: 51px;
+    background-color: #E3B873;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-left: 244px;
+    border-radius: 0;
+    margin-top: 10px;
+
+  }
+
+  .pig {
+    position: relative;
+    z-index: 4;
+    bottom: 561px;
+    left: 866px;
+  }
+
+  .pigtext {
+    display: inline-block;
+    position: relative;
+    left: 800px;
+    bottom: 606px;
+    width: 344px;
+    height: 47px;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #E3B873;
+    z-index: 4;
+  } 
+
+  .pictures {
+    height: 864px;
+    background: url("../image/image\ 5.1.png");
+    background-size: cover;
+  }
+
+  .pictures div {
+    height: 864px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .pictureblack {
+    height: 864px;
+    width: 100%;
+    position: absolute;
+
+  }
+
+  .pictures h4 {
+    position: relative;
+    width: 411px;
+    height: 66px;
+    color: #E3B873;
+    z-index: 6;
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    text-transform: uppercase;
+    top: 137px;
+    left: 99px;
+  }
+
+  .pictures p {
+    position: relative;
+    z-index: 6;
+    width: 299px;
+    height: 23px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: #FFFFFF;
+    top: 137px;
+    left: 99px;
+
+  }
+  
+  .pictures .american {
+    color: #E3B873;
+    text-decoration: solid underline #E3B873 0.66px;
+  }
+
+  .imgclock {
+    position: relative;
+    z-index: 6;
+    top: -695px;
+    left: 588px;
+  }
+
+  .imgsofa {
+    position: relative;
+    z-index: 6;
+    top: -1035px;
+    left: 633px;
+  }
+
+  .imgtv {
+    position: relative;
+    z-index: 6;
+    top: -300px;
+    left: -125px;
+  }
+
+  .imgflover {
+    position: relative;
+    z-index: 6;
+    top: -372px;
+    left: -81px;
+  }
+
+  .ourclients {
+    max-width: 1440px;
+    height: 1107px;
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+  
+  .ourclients h6 {
+    position: relative;
+    top: 60px;
+    left: 590px;
+    height: 26px;
+    width: 257px;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .hands {
+    position: relative;
+    top: 25px;
+    left: 660px;
+    width: 115px;
+    height: 35px;
+  }
+
+  .textclient {
+    position: relative;
+    top: 20px;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+
+  }
+
+  .clientsall {
+    margin-top: 90px;
+    width: 1236px;
+    height: 455px;
+    margin-left: 190px;
+  }
+
+  .clientsall div {
+    display: inline-block;
+  }
+
+  .client1 {
+    width: 376px;
+    height: 455px;
+  }
+
+  .photoclient {
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: 35px;
+  }
+
+  .Maria {
+    height: 42px;
+    width: 178px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: #181818;
+    position: relative;
+    left: 140px;
+    top: -90px;
+  }
+
+  .Mariatext {
+    height: 239px;
+    width: 324px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: #959595;
+    position: relative;
+    left: 30px; 
+    top: -87px;
+
+  }
+
+  .m2 {
+    width: 293px;
+    height: 54px;
+    background-color:#E3B873; 
+    position: relative;
+    left: 7px;
+    top: -40px;
+  }
+
+  .text40m2 {
+    color: #ffffff;
+    font-family: Yeseva One;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    position: relative;
+    top: -50px;
+    left: 35px;
+
+  }
+
+  .palka {
+    position: relative;
+    top: -108px;
+    left: 15px;
+  }
+
+  .text48days {
+    color: #ffffff;
+    font-family: Yeseva One;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    position: relative;
+    top: -165px;
+    left: 175px;
+  }
+
+  .squarem2 {
+    width: 36px;
+    height: 35px;
+    position: relative;
+    left: -110px;
+    top: -2px;
+  }
+
+  .squarem3 {
+    width: 36px;
+    height: 35px;
+    position: relative;
+    top: -120px;
+    left: 30px;
+  }
+
+  .build {
+    display: inline-block;
+    height: 429px;
+    width: 676px;
+  } 
+
+  .build2 {
+   display: inline-block;
+   text-align: right;
+   height: 429px;
+   width: 676px;
+  }
+
+  .blackpig {
+    margin-top: 55px;
+    height: 953px;
+    background: url("../image/blackpig.png");
+    position: relative;
+    background-size: cover;
+  }
+
+.blackpig div {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+  .blackpigback {
+    width: 100%;
+    height: 953px;
+    position: absolute;
+  }
+
+  .questions {
+    position: relative;
+    top: -222.5px;
+    z-index: 4;
+    width: 883px;
+    height: 445px;
+    background-color: #181818;
+    
+  }
+
+  .questions h5 {
+    height: 26px;
+    display: block;
+    position: relative;
+    top: 30px;
+    margin-bottom: 0;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+  }
+
+  .name3 {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+
+.whatname3 {
+    margin-top: 7px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.hr2 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom-width: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+.argee3 {
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -5px;
+}
+
+  .check3 {
+    position: relative;
+    left: -20px; 
+    top: -5px;
+    margin: 0;
+  }
+
+  .square2 {
+    margin-left: 49px; 
+    margin-top: 0; 
+  }
+
+  .buttonstep31 {
+    width: 213px;
+    height: 51px;
+    background-color: #E3B873;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-left: 341px;
+    border-radius: 0;
+    margin-top: 50px;
+  }
+
+  .map {
+    position: relative;
+    z-index: 3;
+    top: -127px;
+    left: 250px;
+    width: 925px;
+    height: 446px;
+  }
+
+  .info {
+    position: relative;
+    z-index: 3;
+    top: -170px;
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ .envelope {
+    position: relative;
+    z-index: 3;
+    width: 28px;
+    height: 28px;
+ }
+
+ .inasta {
+    position: relative;
+    z-index: 3;
+    width: 28px;
+    height: 28px;  
+ }
+
+ .questions div {
+    display: inline-block;
+    width: 231px;
+    height: auto;
+    color:white;
+ }
+
+ .square3 {
+    margin-left: 298.7px;
+ }
+
+.footer {
+    background-color: black;
+}
+
+ .podval{
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+ .br-invis {
+  display: none;
+ }
+ .label {
+  cursor: pointer;
+  font-size: 14px;
+}
+.checkbox {
+  display: none;
+}
+.fake {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background: #E3B873;
+  color: #fff;
+  justify-content: center;
+}
+.fake::before {
+  content:"\2714";
+  opacity: 0;
+  transition: .2s;
+}
+.checkbox:checked + .fake::before {
+  opacity: 1;
+}
+
+ .imageRoomMobile {
+  display: none;
+ }
+
+ .mobileList {
+  display: none;
+ }
+
+ .first-section-room {
+  margin-left: 102px;
+ }
+ .submit2 {
+  display: none;
+ }
+ .mobline {
+  display: none;
+ }
+
+.mobileList div {
+  display: none;
+}
+.mobile-werealize {
+  display: none;
+}
+.mobile-pictures {
+  display: none;
+}
+ @media screen and (max-width: 1430px) {
+    br {
+      display: none;
+    }
+    .container {
+      max-width: 375px;
+      height: 57px;
+    }
+    .header-content .button {
+      display: none;
+    }
+    .header-content {
+      height: 57px;
+    }
+    .header-content nav {
+      display: none;
+    }
+    .header-content p {
+      color: white;
+      text-decoration: none;
+    }
+    .hero {
+      height: 476px;
+      padding: 1px;
+    }
+    .hero .container {
+      max-width: 375px;
+      height: 476px;
+      margin: 0 auto;
+      padding-top: 85px;
+    }
+    .hero-container {
+      width: 339px;
+      height: 332px;
+      margin: 0 18px 0;
+      top: 0;
+      left: 0;
+    }
+    .title {
+      font-size: 23px;
+      line-height: 30.35px;
+    }
+    .hero-container p {
+      font-size: 14px;
+      line-height: 19px;
+      width: 339px;
+    }
+    .br-invis {
+      display: inline;
+    }
+
+    .calculate {
+      width: 339px;
+      height: 51px;
+      margin-bottom: 26px;
+    }
+    .submit {
+      width: 339px;
+      height: 51px;
+      margin-left: 0;
+    }
+    .project {
+      background-color: #181818;
+    }
+    .project-container {
+      max-width: 375px;
+      margin: 0 auto;
+      height: 1553px;
+      text-align: center;
+    }
+    .project-content{
+      margin-top: 36px;
+      margin-left: 0;
+      width: 375px;
+      text-align: center;
+    }
+    .project-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 22px;
+      line-height: 30px;
+    }
+    .project-content .text {
+      font-size: 11px;
+      line-height: 17px;
+      text-align: center;
+      width: 311px;
+      margin: 22px auto;
+    }
+    .text br {
+      display: none;
+    }
+  
+    .imageRoomMobile {
+      display: block;
+      width: 340px;
+      height: 241.35px;
+      margin: 0 auto;
+    }
+    .project-content h4 {
+      font-size: 14px;
+      line-height: 19.4px;
+    }
+    .city {
+      width: 99px;
+      margin-right: 0;
+      text-align: left;
+    }
+
+    .appartment {
+      width:181px;
+      margin-left: 61px;
+      text-align: left;
+    }
+
+    .repair {
+      width: 129px;
+      margin-left: 12px;
+      margin-right: 0;
+      text-align: left;
+    }
+    .first-checkboxpyx {
+      display:none;
+    }
+    .cost {
+      width: 178px;
+      margin-left: 31px;
+      text-align: left;
+    }
+    .p {
+      font-size: 11px;
+      line-height: 15px;
+    }
+    .s {
+      display: none;
+    }
+
+    .project-image {
+      display: none;
+    }
+
+    .project-image h5, .project-image img {
+      display: none;
+    }
+
+    .control {
+      font-size: 22px;
+      line-height: 30.5px;
+      margin: 64px auto 19px;
+    }
+
+    .gold1, .gold2 {
+      margin: 0;
+    }
+
+    .video {
+      width: 340px;
+      height: 207px;
+      margin: 40px 0 0;
+    }
+
+    .videoblack {
+      width: 340px;
+      height: 207px;
+      margin-left: 0;
+      top: -212.66px;
+    }
+    .ellipse {
+      width: 37px;
+      height: 37px;
+      top: -339px;
+      left: 10px;
+    }
+    .play {
+      width: 12.19px;
+      height: 12.19px;
+      top: -353px;
+      left: -17px;
+    }
+    .mobileList {
+      display: block;
+      width: 375px;
+      position: relative;
+      top: -248px;
+    }
+    .mobileList p {
+      display: block;
+      width: 375px;
+      height: 106px;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 18.68px;
+      margin: 21.5px 0 61px;
+    }
+    .mobline {
+      display: inline;
+      width: 55px;
+    }
+    .mobileList div {
+      display: block;
+    }
+    .mobileList .name-phone {
+      display: block;
+      width: 375px;
+      margin: 0;
+      text-align: left;
+    }
+    .mobileList .name-phone .name {
+      display: block;
+      color: rgba(255, 255, 255, 0.5);
+      margin: 0;
+      height: 12.5px;
+      width: 40px;
+    }
+    .mobileList .name-phone .whatname {
+      color:#FFFFFF;
+      display: block;
+      margin: 6px 0 8px;
+      height: 17px;
+    }
+
+    .mobileList .name-phone hr {
+      display: block;
+      border: 0.01px solid #FFFFFF;
+      margin: 0;
+    }
+
+    .mobileList .name-phone .phone {
+      width: 55px;
+      height: 12.5px;
+      display: block;
+      margin: 63px 0 0;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .mobileList .name-phone .yourphone {
+      display: block  ;
+      width: 165px;
+      height: 17px;
+      margin: 6px 0 8px;
+      color: white;
+    }
+
+    .name-phone {
+      display: none;
+    }
+    .label {
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .checkbox{
+      display: none;
+    }
+    .fake{
+      display: inline-flex;
+      width: 18px;
+      height: 18px;
+      background: #E3B873;
+      color: #fff;
+      justify-content: center;
+    }
+    .fake::before{
+      content:"\2714";
+      opacity: 0;
+      transition: .2s;
+    }
+    .checkbox:checked + .fake::before{
+      opacity: 1;
+    }
+    .submit2 {
+      display: inline-block;
+      top: 67px;
+      margin-left: 0;
+      width: 340px;
+    }
+
+    .step2whiteback {
+      max-width: 375px;
+      margin: 0 auto;
+    }
+
+    .step2whiteback .types {
+      display: block;
+      height: 26px;
+      font-size: 22px;
+      line-height: 30.5px;
+      left: 0;
+      margin: 83px auto 17px;
+    }
+    .step2whiteback .line, .step2whiteback .square, .step2whiteback .check,  .step2whiteback p, .step2whiteback button{
+      display: none;
+    }
+    .section-rooms {
+      max-width: 375px;
+      height: 1944px;
+      margin: 40px auto 0;
+    }
+    .first-section-room {
+      height: 608px;
+      margin-left: 0;
+    }
+    .tools, .toolsline, .toolslineright {
+      left: 0;
+    }
+    .toolsline {
+      margin-left: 130px;
+    }
+    .section-rooms div {
+      width: 340px;
+      height: 608px;
+      margin: 0 0 0 18px;
+    }
+    .whitetext {
+      left: 0;
+      width: 270px;
+    }
+    .decor {
+      left: 0;
+    }
+    .list {
+      left: 0;
+    }
+    .button900 {
+      left: 0;
+      width: 190px;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 0 0 0 19px;
+    }
+    .second-section-room {
+      position: relative;
+      top: -330px;
+    }
+
+    .third-section-room {
+      position: relative;
+      top: -655px;
+    }
+    .whitepig {
+      display: none;
+    }
+    .pictures {
+      display: none;
+    }
+    .ourclients {
+      display: none;
+    }
+    .footer {
+      display: none;
+    }
+    .blackpig {
+      display: none;
+    }
+    .step3 {
+      background-color: #181818;
+    }
+    .mobile-werealize {
+      display: block;
+      max-width: 375px;
+      height: 215px;
+      color: #E3B873;
+      font-family: Yeseva One;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 30.5px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 55px auto 0;
+    }
+    .mobile-werealize h4 {
+      width: 310px;
+      margin: 0 0 0 30px;
+    }
+    .mobile-werealize .image51 {
+      margin-top: 24px;
+      width: 340px;
+      height: 242px;
+    }
+    .VectorLeftMobileWeReal {
+      margin-left: 46px;
+      position: relative;
+      top: -180px;
+      left: -88px;
+      z-index: 5;
+    }
+
+    .EllipseMobileWeReal {
+      position: relative;
+      top: -154px;
+      left: -130px;
+    }
+    .EllipseMobileWeReal2 {
+      position: relative;
+      top: -154px;
+      left: 84px;
+    }
+    .VectorRightMobileWeReal {
+      position: relative;
+      top: -180px;
+      left: 42px;
+      z-index: 5;
+    }
+    .mobile-pictures {
+      display: block;
+      max-width: 375px;
+      height: 1192px;
+      margin: 0 auto 0;
+      text-align: center;
+    }
+    .mobile-pictures h5 {
+      display: inline-block;
+      width: 257px;
+      height: 26px;
+      font-family: Yeseva One;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin: 173px 0 0;
+    }
+    .name-phone-mob {
+      display: block;
+      text-align: left;
+    }
+    .name-phone-mob .name {
+      display: block;
+      color: rgba(255, 255, 255, 0.5);
+      width: 39px;
+      height: 12px;
+      font-family: Nunito Sans;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 21px;
+      margin-top: 52px;
+    }
+    .name-phone-mob .whatname {
+      color:#FFFFFF;
+      font-family: Nunito Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 23px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+    .name-phone-mob hr {
+      margin: 0;
+      border: 1px solid #FFFFFF;
+    }
+    .mobile-pictures .first-checkbox .label .text {
+      color: white;
+    }
+    .mobile-map {
+      width: 340px;
+      height: 255px;
+      margin-top: 75px;
+    }
+    .info-mobile {
+      width: 340px;
+      height: 70.5px;
+      font-family: Yeseva One;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: center;
+      color: #E3B873;
+      margin: 41.79px auto 0;
+    }
+ }
